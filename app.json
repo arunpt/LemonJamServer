@@ -1,0 +1,23 @@
+{
+    "name":"LemonJamServer",
+    "description":"Webserver of LemonJamSbot",
+    "env":{
+        "SESSION":{
+            "description":"Telethon session",
+            "value":""
+        },
+        "API_ID":{
+            "description":"API ID from https://my.telegram.org",
+            "value":""
+        },
+        "API_HASH":{
+            "description":"API HASH from https://my.telegram.org",
+            "value":""
+        }
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/python"
+        }
+    ]
+}
